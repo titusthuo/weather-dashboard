@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: top center;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+h1 {
+    font-size: 36px;
+    color: #eeeeee;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    width: 100%;
+    max-width: 280px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(18, 18, 18, 0.4);
+    border-radius: 18px;
+    border-bottom: 3.5px solid #3a8a63;
+    font-size: 28px;
+    font-weight: 360;
+    transition: 0.2s ease-out;
+    color: #eeeeee;
+}
+
+.search-box:focus {
+    background-color: rgba(18, 18, 18, 0.8);
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.city {
+    color: #eeeeee;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #eeeeee;
+    font-size: 16px;
+}
+
+.temp {
+    color: rgb(238, 238, 238);
+    font-size: 120px;
+    font-weight: 850;
+    margin: 28px 0;
+    text-shadow: 2px 8px rgba(64, 68, 187, 0.502);
+}
+
+.temp span {
+    font-weight: 250;
+}
+
+.weather {
+    color: rgb(238, 238, 238);
+    font-size: 36px;
+    font-weight: 780;
+    font-style: italic;
+    margin-bottom: 19px;
+    text-shadow: 0 3.5px rgba(0, 0, 0, 0.4);
+}
+
+.hi-low {
+    color: rgb(238, 238, 238);
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}
